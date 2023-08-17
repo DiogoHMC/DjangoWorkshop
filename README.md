@@ -40,7 +40,7 @@ Tutorial de Iniciação de Django
 	14.4: Adicione "from . import views"
 	14.5: Adicione "app_name="meuapp" acima do urlpatterns.
 
-15. Crie o seu primeiro arquivo HTML (meutemplate.html, por exemplo). Vamos testar se toda a conexão até agora está funcionando. Vamos colocar um header simples: "<h1>teste</h1>".
+15. Crie o seu primeiro arquivo HTML (meutemplate.html, por exemplo). Vamos testar se toda a conexão até agora está funcionando. Vamos colocar um header simples: ""<h1>teste</h1>"".
 
 16. Crie uma função para visualização da nossa página na views.py. Crie uma função passando como parâmetro o método request, dessa forma:
 	def meutemplate(request):
