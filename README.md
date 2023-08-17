@@ -11,7 +11,11 @@ Tutorial de Iniciação de Django
 
 3. Abra o terminal da IDE
 
-4. Crie um Ambiente Virtual utilizando o comando "python -m venv venv" (o segundo "venv" é o nome do seu ambiente)
+4. Crie um Ambiente Virtual utilizando o comando (o segundo "venv" é o nome do seu ambiente)
+<dt>
+    
+    python -m venv venv
+  </dt>
 
 5. Ative o seu ambiente virtual utilizando o comando "venv/scripts/activate". Caso queira desativá-la, o basta utilizar "deactivate"
 
