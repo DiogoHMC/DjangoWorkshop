@@ -1,6 +1,30 @@
 # DjangoWorkshop
 Workshop de introdução ao django
 
+## ☕ Usando o Django
+
+Para usar Django, siga estas etapas:
+
+- Instalar o Django no seu Computador:
+```
+1. O usuário deverá criar uma pasta em seu computador com um nome informativo da aplicação, como "Aplicação Schoolyard Finds".
+2. O usuário então deverá apertar com o botão direito do mouse dentro da pasta e abrir o terminal da pasta.
+3. Após isso, ele deverá inserir no terminal o comando "git clone https://github.com/Kal-0/FDS.git".
+4. O usuário então abrirá o seu Visual Studio Code na versão certa e com as extensões baixadas, e apertará no botão "File".
+5. Após isso, ele deverá navegar até "Open Folder", escolhendo a pasta que ele nomeou e aplicou o git clone.
+6. O usuário deverá clicar com o botão direito do mouse em "FDS" e escolher a opção "Open in Integrated Terminal".
+
+```
+
+
+- Comandos para Utilização da Aplicação Local:
+```
+1. python manage.py makemigrations
+1. python manage.py migrate
+3. python manage.py runserver
+```
+
+
 ## 🤝 Colaboradores
 
 Agradecemos às seguintes pessoas que contribuíram para este workshop:
