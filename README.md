@@ -71,10 +71,10 @@ Tutorial de Iniciação de Django
     
     from django.urls import path, include
   </dt>
-	14.2: Depois, dentro da lista urlpatterns, adicione "path('', include(meuapp.urls)),".
+	14.2: Depois, dentro da lista urlpatterns, adicione "path('', include('meuapp.urls')),".
 <dt>
     
-    path('', include(meuapp.urls)),
+    path('', include('meuapp.urls')),
   </dt>
 	14.3: Agora, copie o conteúdo do urls.py do PROJETO, vá na urls.py do APP e cole, mantendo o import que colocamos no passo anterior e a lista urlpatterns lá. Deixe-a Vazia.
 	14.4: Adicione "from . import views"
@@ -123,6 +123,86 @@ Tutorial de Iniciação de Django
 
 21. Entre na página do admin utilizando a a sua url mais /admin ( "127.0.0.1:8000/admin" ).
 
+## 🤖 Descrições
+
+Views:
+
+Propósito: Em desenvolvimento web, as views lidam com a lógica por trás do tratamento de requisições HTTP, processamento de dados e geração de respostas apropriadas. Elas encapsulam a lógica de negócios da aplicação, a manipulação de dados e a interação com os models.
+Função: Quando um usuário faz uma requisição a uma URL específica, a função de visualização correspondente é responsável por processar essa requisição, buscar dados do banco de dados, se necessário, realizar cálculos ou transformações e decidir qual resposta enviar de volta. As views atuam essencialmente como intermediárias entre as requisições recebidas e os dados a serem apresentados ou manipulados.
+Linguagem: As views são tipicamente implementadas como funções ou classes em Python em frameworks como o Django. Elas podem retornar vários tipos de respostas, como conteúdo HTML, dados JSON, redirecionamentos ou até mensagens de erro.
+
+Templates:
+
+Propósito: Os templates são usados para definir a estrutura e aparência da interface do usuário. Eles separam a camada de apresentação da lógica de negócios e manipulação de dados, permitindo que os desenvolvedores criem páginas da web dinâmicas e visualmente atrativas.
+Função: Os templates contêm espaços reservados e tags de template que são substituídos por dados reais quando o template é renderizado. Eles definem a estrutura da página HTML, onde o conteúdo dinâmico é inserido, e frequentemente incluem loops, condições e outras lógicas para controlar como o conteúdo é exibido. Os templates focam em como a informação é apresentada ao usuário.
+Linguagem: Os templates geralmente são escritos em HTML, mas podem incluir tags de template e filtros específicos do framework sendo usado. No Django, por exemplo, os templates utilizam sua linguagem de template para incorporar dados dinâmicos e lógica.
+models:
+
+Propósito: Os models definem a estrutura e o comportamento dos dados na aplicação. Eles representam a maneira como os dados são armazenados, recuperados e manipulados no banco de dados. Os models ajudam a garantir consistência e integridade na forma como os dados são gerenciados.
+Função: Em frameworks como o Django, os models são implementados como classes em Python que herdam de uma classe de models base. Cada atributo da classe do models corresponde a um campo na tabela do banco de dados. Os models definem relacionamentos entre diferentes tipos de dados e podem incluir métodos para realizar várias operações nesses dados, como criação, atualização, exclusão e consulta.
+Linguagem: Os models são implementados usando classes Python e fazem parte da lógica do backend. Eles abstraem a estrutura e as interações do banco de dados, permitindo que os desenvolvedores trabalhem com dados de maneira orientada a objetos sem lidar diretamente com SQL.
+Em resumo, as distinções entre views, templates e models são:
+
+Views: Lidam com o processamento de requisições, manipulação de dados e geração de respostas. Elas preenchem a lacuna entre as requisições dos usuários e a lógica do backend da aplicação.
+
+Templates: Definem como os dados são apresentados aos usuários na parte frontal (frontend). Eles estruturam o layout HTML e incorporam conteúdo dinâmico usando tags e lógica de template.
+
+Models: Definem a estrutura de dados, relacionamentos e comportamento. Eles abstraem as operações de banco de dados e fornecem uma interface orientada a objetos de alto nível para trabalhar com dados.
+
+## 🤓☝️ Recomendações didaticas
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://www.youtube.com/@djangolessons4614">
+        <img src="https://yt3.googleusercontent.com/ytc/AOPolaRasVoZafNkRP0cd-lsDZAy9izjsW_fhsr9e9i_=s176-c-k-c0x00ffffff-no-rj" width="100px;" alt="Django Lessons"/><br>
+        <sub>
+          <b>Django Lessons</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.youtube.com/@freecodecamp">
+        <img src="https://yt3.googleusercontent.com/ytc/AOPolaTs1IEit9EUooQAJkWS4SkpUE7oMDXYrjIgnOk1Kw=s176-c-k-c0x00ffffff-no-rj" width="100px;" alt="freeCodeCamp.org"/><br>
+        <sub>
+          <b>freeCodeCamp.org</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.youtube.com/@DennisIvy">
+        <img src="https://yt3.googleusercontent.com/ytc/AOPolaRYDmFeW15xdieLdvxXXspEidhG6zvZ_k3iUiOoRg=s176-c-k-c0x00ffffff-no-rj" width="100px;" alt="Dennis Ivy"/><br>
+        <sub>
+          <b>Dennis Ivy</b>
+        </sub>
+      </a>
+    </td>
+<td align="center">
+      <a href="https://www.youtube.com/@Codemycom">
+        <img src="https://yt3.googleusercontent.com/ytc/AOPolaTLKrm1mKm_4KBznZxMmeMfh7HPhLkzMel9Ydil=s176-c-k-c0x00ffffff-no-rj" width="100px;" alt="Codemy.com"/><br>
+        <sub>
+          <b>Codemy.com</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.youtube.com/@DevOpsJourney">
+        <img src="https://yt3.googleusercontent.com/dQk85R0vZ_EKoE7BgbwMFIcmovijvOsbMD3DQJ26_j1hr5CYMeSSmHez9urr7A1zRcrpcVvoGeI=s176-c-k-c0x00ffffff-no-rj" width="100px;" alt="DevOps Journey"/><br>
+        <sub>
+          <b>DevOps Journey</b>
+        </sub>
+      </a>
+    </td>
+   <td align="center">
+      <a href="https://docs.djangoproject.com/en/4.2/">
+        <img src="https://img.stackshare.io/service/994/4aGjtNQv.png" width="100px;" alt="Django documentation"/><br>
+        <sub>
+          <b>Django documentation</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## 🤝 Colaboradores
 
