@@ -26,7 +26,7 @@ Desenvolvedores:
     </td>
     <td align="center">
       <a href="https://github.com/virnaamaral">
-        <img src="https://avatars.githubusercontent.com/u/117921412?v=4" width="100px;" alt="Foto Stora"/><br>
+        <img src="https://avatars.githubusercontent.com/u/116957619?v=4" width="100px;" alt="Foto Stora"/><br>
         <sub>
           <b>Virna Amaral</b>
         </sub>
@@ -34,7 +34,7 @@ Desenvolvedores:
     </td>
     <td align="center">
       <a href="https://github.com/Caiobadv">
-        <img src="https://avatars.githubusercontent.com/u/117746778?v=4" width="100px;" alt="Foto Matheus Gomes"/><br>
+        <img src="https://avatars.githubusercontent.com/u/117755420?v=4" width="100px;" alt="Foto Matheus Gomes"/><br>
         <sub>
           <b>Caio Barreto</b>
         </sub>
