@@ -214,7 +214,9 @@ Agradecemos às seguintes pessoas que contribuíram para este workshop:
       <a href="https://github.com/Kal-0">
         <img src="https://avatars.githubusercontent.com/u/106926790?s=400&u=d51d91a8d447afbb4a9d0be21d664b82d7091fc5&v=4" width="100px;" alt="Foto Kal"/><br>
         <sub>
-          <b>Caio Cesar</b>
+		<b>Caio Cesar</b>
+		<br>
+		<b>Slack: ccbh@cesar.school</b>
         </sub>
       </a>
     </td>
@@ -222,7 +224,9 @@ Agradecemos às seguintes pessoas que contribuíram para este workshop:
       <a href="https://github.com/Fiend3333">
         <img src="https://avatars.githubusercontent.com/u/116087739?v=4" width="100px;" alt="Foto Diogo"/><br>
         <sub>
-          <b>Diogo Henrique</b>
+		<b>Diogo Henrique</b>
+		<br>
+		<b>Slack: dhmc@cesar.school</b>
         </sub>
       </a>
     </td>
@@ -230,7 +234,9 @@ Agradecemos às seguintes pessoas que contribuíram para este workshop:
       <a href="https://github.com/virnaamaral">
         <img src="https://avatars.githubusercontent.com/u/116957619?v=4" width="100px;" alt="Foto Stora"/><br>
         <sub>
-          <b>Virna Amaral</b>
+	        <b>Virna Amaral</b>
+		<br>
+		<b>Slack: vfpa@cesar.school</b>
         </sub>
       </a>
     </td>
@@ -238,7 +244,9 @@ Agradecemos às seguintes pessoas que contribuíram para este workshop:
       <a href="https://github.com/Caiobadv">
         <img src="https://avatars.githubusercontent.com/u/117755420?v=4" width="100px;" alt="Foto Matheus Gomes"/><br>
         <sub>
-          <b>Caio Barreto</b>
+		<b>Caio Barreto</b>
+		<br>
+		<b>Slack: cba2@cesar.school</b>
         </sub>
       </a>
     </td>
