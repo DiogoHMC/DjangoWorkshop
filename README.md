@@ -208,7 +208,6 @@ Models: Definem a estrutura de dados, relacionamentos e comportamento. Eles abst
 
 Agradecemos às seguintes pessoas que contribuíram para este workshop:
 
-Desenvolvedores:
 <table>
   <tr>
     <td align="center">
