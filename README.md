@@ -1,5 +1,4 @@
-# DjangoWorkshop
-Workshop de introdução ao django
+# Workshop de Introdução ao Django
 
 ## ☕ Usando o Django
 
@@ -88,7 +87,7 @@ Tutorial de Iniciação de Django
     app_name="meuapp"
   </dt>
 
-15. Crie o seu primeiro arquivo HTML (meutemplate.html, por exemplo). Vamos testar se toda a conexão até agora está funcionando. Vamos colocar um header simples: <h1>teste</h1>.
+15. Crie o seu primeiro arquivo HTML (meutemplate.html, por exemplo). Vamos testar se toda a conexão até agora está funcionando. Vamos colocar um header simples:
 <dt>
     
     <h1>teste</h1>
