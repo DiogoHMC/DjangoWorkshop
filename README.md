@@ -135,7 +135,8 @@ Templates:
 Propósito: Os templates são usados para definir a estrutura e aparência da interface do usuário. Eles separam a camada de apresentação da lógica de negócios e manipulação de dados, permitindo que os desenvolvedores criem páginas da web dinâmicas e visualmente atrativas.
 Função: Os templates contêm espaços reservados e tags de template que são substituídos por dados reais quando o template é renderizado. Eles definem a estrutura da página HTML, onde o conteúdo dinâmico é inserido, e frequentemente incluem loops, condições e outras lógicas para controlar como o conteúdo é exibido. Os templates focam em como a informação é apresentada ao usuário.
 Linguagem: Os templates geralmente são escritos em HTML, mas podem incluir tags de template e filtros específicos do framework sendo usado. No Django, por exemplo, os templates utilizam sua linguagem de template para incorporar dados dinâmicos e lógica.
-models:
+
+Models:
 
 Propósito: Os models definem a estrutura e o comportamento dos dados na aplicação. Eles representam a maneira como os dados são armazenados, recuperados e manipulados no banco de dados. Os models ajudam a garantir consistência e integridade na forma como os dados são gerenciados.
 Função: Em frameworks como o Django, os models são implementados como classes em Python que herdam de uma classe de models base. Cada atributo da classe do models corresponde a um campo na tabela do banco de dados. Os models definem relacionamentos entre diferentes tipos de dados e podem incluir métodos para realizar várias operações nesses dados, como criação, atualização, exclusão e consulta.
